@@ -1,9 +1,8 @@
 import "./App.css";
-import React, {useState, useRef, useEffect} from "react";
+import React, {useState, useRef} from "react";
 import { Link } from "react-scroll";
 import maxwell from "./assets/max.jpg";
-import masonry from "./assets/GrimmMasonrySite.png";
-import star from "./assets/StarProportiesSite.png";
+import maxwell1 from "./assets/max1.jpg";
 import $ from 'jquery';
 import Hamburger from 'hamburger-react'
 import {SiLinkedin, SiGithub} from 'react-icons/si';
@@ -170,7 +169,7 @@ function App() {
       <ScrollAnimation delay={300} animateIn='fadeIn' animateOut='fadeOut'>
         <section id="about">
           <h1 className="section-title">About</h1>
-          <img className="graduation-photo" src={maxwell} alt="picture of me"/>
+          <img className="graduation-photo" src={maxwell1} alt="picture of me"/>
           <p className="about-me-text">I am a recent graduate from the University of Wisconsin Oshkosh. After 4 years of working towards my Bachelors of Science in Computer Science I am finally ready to start this new chapter in my life. I am a very easy going guy who can take critisim very well. I do genuinly enjoy creating splendid UI no matter what coding language however, I do tend to lean towards web technologies. I have interned at the Wisconsin Department of Revenue as a Web Developer and gained a lot of experience and knowledge. I am a very fast learner that puts 110% into whatever I am doing.</p>
         </section>
       </ScrollAnimation>

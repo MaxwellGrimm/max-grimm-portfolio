@@ -118,7 +118,7 @@ li {
   .graduation-photo{
     grid-column: span 3;
     margin-left: 7.5vw;
-    width: 300px;
+    width: 200px;
     border-radius: 20px;
   }
 
@@ -219,7 +219,9 @@ li {
   .about-me-text{
     grid-column: span 8;
     font-size: 1.2em;
-    padding: 40px;
+    padding-left: 40px;
+
+
   }
 
   #projects{
@@ -367,6 +369,7 @@ li {
     text-align: center;
     color: white;
     -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
     background-image: linear-gradient(
         to right,
@@ -482,7 +485,7 @@ li {
   }
 
   #about{
-    height: 600px;
+    height: 700px;
   }
 
   #projects{
@@ -729,6 +732,7 @@ li {
     text-align: center;
     color: white;
     -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
     background-image: linear-gradient(
         to right,
@@ -1057,6 +1061,7 @@ li {
     text-align: center;
     color: white;
     -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
     background-image: linear-gradient(
         to right,
