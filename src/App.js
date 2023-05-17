@@ -25,14 +25,14 @@ var wordflick = function () {
     if (forwards) {
       if (offset >= words[i].length) {
         ++skip_count;
-        if (skip_count == skip_delay) {
+        if (skip_count === skip_delay) {
           forwards = false;
           skip_count = 0;
         }
       }
     }
     else {
-      if (offset == 0) {
+      if (offset === 0) {
         forwards = true;
         i++;
         offset = 0;
@@ -42,7 +42,7 @@ var wordflick = function () {
       }
     }
     part = words[i].substr(0, offset);
-    if (skip_count == 0) {
+    if (skip_count === 0) {
       if (forwards) {
         offset++;
       }
