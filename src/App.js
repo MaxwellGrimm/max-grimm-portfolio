@@ -159,7 +159,7 @@ function App() {
       </header>
       <section id="home">
           <img className="profile-photo" src={maxwell} alt="headshot of me"/>
-          <h1 className="head-info word"></h1>
+          <h1 className="head-info word">Max</h1>
           <ul className="social-links">
             <li><a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/maxwell-grimm-20007b205/"><IconContext.Provider value={{size: '3em', color: 'white'}}><SiLinkedin/></IconContext.Provider></a></li>
             <li><a target="_blank" rel="noopener noreferrer" href="https://github.com/MaxwellGrimm"><IconContext.Provider value={{size: '3em', color: 'white'}}><SiGithub/></IconContext.Provider></a></li>
