@@ -158,18 +158,18 @@ function App() {
         </nav>
       </header>
       <section id="home">
-          <img className="profile-photo" src={maxwell} alt="picture of me"/>
+          <img className="profile-photo" src={maxwell} alt="headshot of me"/>
           <h1 className="head-info word"></h1>
           <ul className="social-links">
-            <li><a target="_blank" href="https://www.linkedin.com/in/maxwell-grimm-20007b205/"><IconContext.Provider value={{size: '3em', color: 'white'}}><SiLinkedin/></IconContext.Provider></a></li>
-            <li><a target="_blank" href="https://github.com/MaxwellGrimm"><IconContext.Provider value={{size: '3em', color: 'white'}}><SiGithub/></IconContext.Provider></a></li>
+            <li><a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/maxwell-grimm-20007b205/"><IconContext.Provider value={{size: '3em', color: 'white'}}><SiLinkedin/></IconContext.Provider></a></li>
+            <li><a target="_blank" rel="noopener noreferrer" href="https://github.com/MaxwellGrimm"><IconContext.Provider value={{size: '3em', color: 'white'}}><SiGithub/></IconContext.Provider></a></li>
           </ul>
           <p>Want to discuss a future project with me? Find my contact information at the bottom.</p>
       </section>
       <ScrollAnimation delay={300} animateIn='fadeIn' animateOut='fadeOut'>
         <section id="about">
           <h1 className="section-title">About</h1>
-          <img className="graduation-photo" src={maxwell1} alt="picture of me"/>
+          <img className="graduation-photo" src={maxwell1} alt="birthday"/>
           <p className="about-me-text">I am a recent graduate from the University of Wisconsin Oshkosh. After 4 years of working towards my Bachelors of Science in Computer Science I am finally ready to start this new chapter in my life. I am a very easy going guy who can take critisim very well. I do genuinly enjoy creating splendid UI no matter what coding language however, I do tend to lean towards web technologies. I have interned at the Wisconsin Department of Revenue as a Web Developer and gained a lot of experience and knowledge. I am a very fast learner that puts 110% into whatever I am doing.</p>
         </section>
       </ScrollAnimation>
