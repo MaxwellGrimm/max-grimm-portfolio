@@ -71,7 +71,7 @@ function App() {
     },
     star: {
       img: 'url("https://i.postimg.cc/4Nv1H9CP/Screenshot-2023-05-09-133224.png")',
-      link: "https://replit.com/@cs346/Star-Properties-Final-Website#views/pages/signIn.ejs",
+      link: "https://github.com/MaxwellGrimm/StarProperties",
       text: "star text"
     }
   }
