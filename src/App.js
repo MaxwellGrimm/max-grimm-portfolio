@@ -170,14 +170,14 @@ function App() {
         <section id="about">
           <h1 className="section-title">About</h1>
           <img className="graduation-photo" src={maxwell1} alt="birthday"/>
-          <p className="about-me-text">I am a recent graduate from the University of Wisconsin Oshkosh. After 4 years of working towards my Bachelors of Science in Computer Science I am finally ready to start this new chapter in my life. I am a very easy going guy who can take critisim very well. I do genuinly enjoy creating splendid UI no matter what coding language however, I do tend to lean towards web technologies. I have interned at the Wisconsin Department of Revenue as a Web Developer and gained a lot of experience and knowledge. I am a very fast learner that puts 110% into whatever I am doing.</p>
+          <p className="about-me-text">I am a recent graduate from the University of Wisconsin Oshkosh. After 4 years of working towards my Bachelor of Science in Computer Science, I am extremely determined and ready to start this new chapter in my life. I have been described by my peers and employers as easy-going and always open to constructive criticism. I'm constantly striving towards personal growth and improvement. I do genuinely enjoy creating splendid UI no matter what coding language. However, I do tend to lean towards web technologies. I have interned at the Wisconsin Department of Revenue as a Web Developer and gained a lot of experience and knowledge.</p>
         </section>
       </ScrollAnimation>
       
       
       <section id="projects">
         <h1 className="section-title">Projects</h1>
-        <p className="projects-text">I have worked with a lot of differnt web development technologies. The one I am most proficient in are HTML, CSS, JS, React, Bootstrap, and Flutter. I have also used PHP, EJS, and Angular to make dynamic pages.</p>
+        <p className="projects-text">I have worked with a lot of differnt web development technologies. I am most proficient in HTML, CSS, JS, React, Bootstrap, and Flutter. For making dynamic pages I have experience with PHP, EJS, and Angular.</p>
         <div className="project-tabs">
           <ul>
             <li id="masonryLink"
@@ -197,7 +197,7 @@ function App() {
       <section id="resume">
         <div className="front-end-resume">
           <h1>Frontend Developer</h1>
-          <p>I enjoy building projects from design to development. I love creating sites to be proud of.</p>
+          <p>I enjoy working with stakeholders from design through development. I love creating sites to be proud of.</p>
           <h2 className="resume-title">Languages I Use:</h2>
           <p>HTML, CSS, JavaScript, jQuery, Node.js, PHP, Flutter, EJS</p>
           <h2 className="resume-title">My Development Tools:</h2>
@@ -211,7 +211,7 @@ function App() {
         </div>
         <div className="professional-experience">
           <h1>Experience</h1>
-          <p>I have 1 year of experience as a web developer but I would love to get some more. </p>
+          <p>Following my year-long internship at the Wisconsin Department of Revenue, I am eager to increase my years of experience and build upon my existing skills.</p>
           <h2 className="resume-title">Education</h2>
           <h3 className="resume-subtitle">University of Wisconsin Oshkosh</h3>
           <p>Bachelors in Computer Science</p>
